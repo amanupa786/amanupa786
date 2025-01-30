@@ -21,10 +21,10 @@
 
 <!-- Visitor Badge (Optional) -->
 <p align="center">
-  <img 
-       src="https://visitor-badge.glitch.me/badge?page_id=amanupa786.amanupa786" 
-       alt="visitor badge" 
-  />
+  <a href="https://hits.seeyoufarm.com">
+  <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=github.com/amanupa786/amanupa786&title=Profile%20Views" alt="Profile Views" />
+</a>
+
 </p>
 
 <!-- Intro Summary -->
