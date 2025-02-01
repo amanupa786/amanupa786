@@ -178,23 +178,24 @@
 ## My GitHub Stats
 
 <p>
-  <a href="https://github.com/amanupa786/github-readme-stats">
+  <a href="https://github.com/anuraghazra/github-readme-stats">
     <img 
          align="left" 
-         src="https://github-readme-stats.vercel.app/api?username=amanupa786&count_private=true&show_icons=true&theme=default" 
+         src="https://github-readme-stats.vercel.app/api?username=amanupa786&count_private=true&show_icons=true&theme=dark" 
          alt="Aman's GitHub Stats"
          height="175px" 
     />
   </a>
-  <a href="https://github.com/amanupa786/convoychat">
+  <a href="https://github.com/anuraghazra/convoychat">
     <img 
          align="center" 
-         src="https://github-readme-stats.vercel.app/api/top-langs/?username=amanupa786&theme=default" 
+         src="https://github-readme-stats.vercel.app/api/top-langs/?username=amanupa786&theme=dark" 
          alt="Top Languages" 
          height="175px" 
     />
   </a>
 </p>
+
 
 <br/><br/><br/><br/>
 ---
