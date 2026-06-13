@@ -1,6 +1,6 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,100:111111&height=200&section=header&text=Aman%20Kumar%20Upadhyay&fontSize=40&fontColor=ffffff&fontAlignY=36&desc=Data%20Analyst%20%7C%20BI%20Developer%20%7C%20Python%20%E2%80%A2%20SQL%20%E2%80%A2%20Power%20BI%20%E2%80%A2%20DAX%20%E2%80%A2%20Excel&descAlignY=58&descSize=15&descColor=aaaaaa&animation=fadeIn&stroke=ffffff&strokeWidth=0"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,100:111111&height=200&section=header&text=Aman%20Kumar%20Upadhyay&fontSize=40&fontColor=ffffff&fontAlignY=36&desc=Data%20Analyst%20%7C%20BI%20Developer%20%7C%20Python%20%E2%80%A2%20SQL%20%E2%80%A2%20Power%20BI%20%E2%80%A2%20DAX%20%E2%80%A2%20Excel&descAlignY=58&descSize=15&descColor=aaaaaa&animation=fadeIn"/>
 
 </div>
 
@@ -153,15 +153,42 @@ Phase 4 → Deduplication             Phase 8 → Formatted Excel Export
 ![yagmail](https://img.shields.io/badge/yagmail-000?style=flat-square&logo=gmail&logoColor=white)&nbsp;
 `Charts in Excel` · `Automated Email`
 
+<br/>
+
+### ◼ [Multi-Table Merge & RFM Customer Segmentation](https://github.com/amanupa786/rfm-customer-segmentation)
+
+> **3-table merge pipeline** with full RFM scoring, window functions, segment assignment, and colour-coded Excel export
+
+```
+Tables Merged : customers + orders + products  (LEFT JOIN × 2 with validation)
+Data Problems : orphan orders · duplicates · null customer_id · country variants
+Window Cols   : customer_total_revenue · order_pct · cumulative_revenue · country_share
+RFM Segments  : Champion · Loyal · At Risk · Needs Attention · Lost · Inactive
+Output        : 5-sheet colour-coded Excel + 3 embedded Matplotlib charts
+```
+
+![Python](https://img.shields.io/badge/Python-000?style=flat-square&logo=python&logoColor=white)&nbsp;
+![Pandas](https://img.shields.io/badge/Pandas-000?style=flat-square&logo=pandas&logoColor=white)&nbsp;
+![Matplotlib](https://img.shields.io/badge/Matplotlib-000?style=flat-square&logo=python&logoColor=white)&nbsp;
+![OpenPyXL](https://img.shields.io/badge/OpenPyXL-000?style=flat-square&logo=microsoft-excel&logoColor=white)&nbsp;
+`pd.merge(validate=, indicator=True)` · `transform()` · `pd.cut()` · `apply(axis=1)`
+
 ---
 
 ## 📈 GitHub Stats
 
 <div align="center">
 
-<img height="180" src="https://github-readme-stats.vercel.app/api?username=amanupa786&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=ffffff&text_color=888888&icon_color=ffffff&count_private=true&include_all_commits=true&rank_icon=github"/>
-&nbsp;&nbsp;
-<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=amanupa786&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=ffffff&text_color=888888&langs_count=6"/>
+<table>
+<tr>
+<td width="50%">
+<img width="100%" src="https://github-readme-stats.vercel.app/api?username=amanupa786&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=ffffff&text_color=888888&icon_color=ffffff&count_private=true&include_all_commits=true&rank_icon=github"/>
+</td>
+<td width="50%">
+<img width="100%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=amanupa786&layout=donut&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=ffffff&text_color=888888&langs_count=6"/>
+</td>
+</tr>
+</table>
 
 </div>
 
@@ -169,7 +196,7 @@ Phase 4 → Deduplication             Phase 8 → Formatted Excel Export
 
 <div align="center">
 
-<img width="68%" src="https://github-readme-streak-stats.herokuapp.com/?user=amanupa786&theme=github-dark-blue&hide_border=true&background=0d1117&stroke=30363d&ring=ffffff&fire=ffffff&currStreakLabel=ffffff&sideLabels=888888&dates=444444&sideNums=ffffff&currStreakNum=ffffff"/>
+<img width="96%" src="https://streak-stats.demolab.com?user=amanupa786&theme=github-dark-blue&hide_border=true&background=0d1117&stroke=30363d&ring=ffffff&fire=ffffff&currStreakLabel=ffffff&sideLabels=888888&dates=555555&sideNums=ffffff&currStreakNum=ffffff&card_width=900&mode=weekly&border_radius=6" alt="GitHub Streak"/>
 
 </div>
 
@@ -177,7 +204,7 @@ Phase 4 → Deduplication             Phase 8 → Formatted Excel Export
 
 <div align="center">
 
-<img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=amanupa786&bg_color=0d1117&color=888888&line=ffffff&point=ffffff&area=true&area_color=1a1a1a&hide_border=true&custom_title=Contribution+Activity"/>
+<img width="96%" src="https://github-readme-activity-graph.vercel.app/graph?username=amanupa786&bg_color=0d1117&color=888888&line=ffffff&point=ffffff&area=true&area_color=1f1f1f&hide_border=true&custom_title=Contribution+Activity+Graph&radius=6&height=220" alt="Contribution Graph"/>
 
 </div>
 
@@ -195,10 +222,12 @@ Phase 4 → Deduplication             Phase 8 → Formatted Excel Export
 | 🧹 Data Cleaning & ETL Pipelines | Python · Pandas · SQL |
 | 📈 Financial & KPI Reporting | Excel · Power BI · DAX |
 | 🤖 Automated Report Delivery | Python · OpenPyXL · Email |
-| 🔍 Customer Behavior Analysis | Python · SQL · Visualization |
+| 🔍 Customer Behavior & RFM Analysis | Python · SQL · Visualization |
+
+<br/>
 
 [![Hire Me on LinkedIn](https://img.shields.io/badge/Hire%20Me%20on%20LinkedIn-000000?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/amanupa786/)&nbsp;
-[![WhatsApp](https://img.shields.io/badge/Message%20on%20WhatsApp-000000?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/918303333311)
+[![Message on WhatsApp](https://img.shields.io/badge/Message%20on%20WhatsApp-000000?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/918303333311)
 
 </div>
 
